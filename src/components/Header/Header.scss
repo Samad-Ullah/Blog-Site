@@ -1,0 +1,35 @@
+.header{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+    .header_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #444;
+        font-family: 'Lora', serif;
+     
+
+        .header_title_sm{
+            position: absolute;
+            top: 18%;
+            font-size: 20px;
+        }
+        .header_title_lg{
+            position: absolute;
+            top: 20%;
+            font-size: 100px;
+        }
+
+    }
+
+    .header_img{
+width: 100%;
+height: 450px;
+margin-top: 80px;
+object-fit: cover;
+    }
+}
