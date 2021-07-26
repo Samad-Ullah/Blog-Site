@@ -1,3 +1,14 @@
-.post_side{
-    display: flex;
+.main_post{
+
+    .main{
+        display: flex;
+        .post_side{
+            flex: 9;
+        
+        }
+        .posts_side{
+            flex: 3;
+        }
+    }
+   
 }
